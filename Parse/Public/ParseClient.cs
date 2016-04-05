@@ -111,6 +111,8 @@ namespace Parse {
     /// </param>
     /// <param name="dotnetKey">The .NET API Key provided in the Parse dashboard.
     /// </param>
+    /// <param name="serverURL">Supply this to use a custom Parse server URL
+    /// </param>
     public static void Initialize(string applicationId, string dotnetKey, string serverURL) {
       Initialize(new Configuration {
         ApplicationId = applicationId,

@@ -28,6 +28,9 @@ namespace Parse {
     [SerializeField]
     public string dotnetKey;
 
+    /// <summary>
+    /// Specify this to use a custom Parse server URL
+    /// </summary>
     [SerializeField]
     public string serverURL;
 
