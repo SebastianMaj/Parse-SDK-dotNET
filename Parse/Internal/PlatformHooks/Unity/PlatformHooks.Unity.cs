@@ -1124,7 +1124,7 @@ namespace Parse {
     }
 
     /// <summary>
-    /// Initialize the app. Called from <see cref="ParseClient.Initialize(string, string)"/>. Guaranteed to be run on main thread.
+    /// Initialize the app. Called from <see cref="ParseClient.Initialize(string, string, string)"/>. Guaranteed to be run on main thread.
     /// </summary>
     public void Initialize() {
       if (settingsPath != null) {
