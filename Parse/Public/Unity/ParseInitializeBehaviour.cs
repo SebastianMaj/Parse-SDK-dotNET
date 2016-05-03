@@ -14,7 +14,7 @@ namespace Parse {
   // TODO (hallucinogen): somehow because of Push, we need this class to be added in a GameObject
   // called `ParseInitializeBehaviour`. We might want to fix this.
   public class ParseInitializeBehaviour : MonoBehaviour {
-    private static bool isInitialized = false;
+    private bool isInitialized = false;
 
     /// <summary>
     /// The Parse applicationId used in this app. You can get this value from the Parse website.
