@@ -1137,7 +1137,7 @@ namespace Parse {
       isWebPlayer = Application.isWebPlayer;
       osVersion = SystemInfo.deviceModel;
       appBuildVersion = Application.version;
-      appDisplayVersion = Application.bundleIdentifier;
+      appDisplayVersion = Application.identifier;
       appName = Application.productName;
 
       settings = SettingsWrapper.Wrapper;
